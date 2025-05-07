@@ -3,7 +3,7 @@
 > **Summary:** Verify mentees can view course details.  <br>
 
 **Preconditions:**
-- User should be enrolled in a Mentee account
+- User should be registered in a Mentee account
 - Mentee should select a course from course list given there are courses available
 - Mentee should not be enrolled to the course of interest
 - Mentee should not have an existing or pending enrollment request
