@@ -3,7 +3,7 @@
 > **Summary:** Verify mentees can select mentors during enrollment.  <br>
 
 **Preconditions:** 
-- User should be enrolled in a Mentee account
+- User should be logged in a Mentee account
 - Mentee should select a course from course list given there are courses available
 - The course selected should have an available assigned Mentor.
 
