@@ -1,0 +1,93 @@
+Test Cases,TEST CASE ID,Sample Summary
+Authentication Testing,,
+  Authentication Testing - Email Log-in,AUTH-001,Verify mentees can sign up via email successfully.
+  Authentication Testing - Google Sign-up,AUTH-002,Verify mentees can sign up via Google successfully.
+  Authentication Testing - Admin Log-in,AUTH-003,Verify admins can log in with credentials.
+  Authentication Testing - Mentor Log-in,AUTH-004,Verify mentors can log in via credentials or Google.
+  Authentication Testing - Mentee Log-in,AUTH-005,Verify mentees can log in via credentials or Google.
+  Authentication Testing - User Password Reset,AUTH-006,Verify users can reset passwords successfully.
+  Authentication Testing - Email Verification,AUTH-007,Verify users can verify their email successfully.
+Admin Testing,,
+  Admin Management Testing - Create Mentor Initial Account,ADMIN-001,Verify admins can create unverified mentor accounts with default password.
+  Admin Management Testing - Mentor Suspension,ADMIN-002,Verify admins can suspend mentors.
+  Admin Management Testing - Remove Mentor (System) ,ADMIN-003,Verify admins can delete mentors.
+  Admin Management Testing - Course Creation,ADMIN-004,Verify admins can create new courses.
+  Admin Management Testing - Course Archiving,ADMIN-005,Verify admins can archive courses without deletion.
+  Admin Management Testing - Course Deletion,ADMIN-006,Verify admins can permanently delete courses.
+  Admin Management Testing - Assign Course's Mentor,ADMIN-007,Verify admins can assign mentors to courses.
+  Admin Management Testing - Remove Course's Mentor,ADMIN-008,Verify admins can revoke mentor access from courses.
+Mentor Testing,,
+  Mentor Functionality Testing - Accept Mentee,MENTOR-001,Verify mentors can accept mentee requests.
+  Mentor Functionality Testing - Reject Mentee,MENTOR-002,Verify mentors can reject mentee requests.
+  Mentor Functionality Testing - Remove Mentee,MENTOR-003,Verify mentors can remove mentees.
+  Mentor Functionality Testing - Post Creation,MENTOR-004,Verify mentors can create posts.
+  Mentor Functionality Testing - Post's Media Attachment,MENTOR-005,Verify mentors can attach media to posts.
+  Mentor Functionality Testing - Post Categorization,MENTOR-007,Verify mentors can set post categories.
+  Mentor Functionality Testing - Schedule Sessions,MENTOR-008,Verify mentors can create schedules for courses.
+  Mentor Functionality Testing - Update Profile,MENTOR-009,Verify mentors can update their profile information.
+  Mentor Functionality Testing - Complete Mentor Creation,MENTOR-010,Verify first-time mentors can complete their profile setup.
+  Mentor Functionality Testing - Reset Default Password,MENTOR-011,Verify mentors can change their default password.
+  Mentor Functionality Testing - Link Navigation,MENTOR-012,Verify mentor-inputted links are clickable and valid.
+Mentee Testing,,
+  Mentee Functionality Testing - Course Enrollment,MENTEE-001,Verify mentees can enroll in courses.
+  Mentee Functionality Testing - View Mentor Posts,MENTEE-002,Verify mentees can view mentor-posted content.
+  Mentee Functionality Testing - Enrollment Mentor Selection,MENTEE-003,Verify mentees can select mentors during enrollment.
+  Mentee Functionality Testing - View Course Details,MENTEE-004,Verify mentees can view course details.
+  Mentee Functionality Testing - View Mentor Profile,MENTEE-005,Verify mentees can view mentor profiles.
+  Mentee Functionality Testing - View Enrolled Course's Posts,MENTEE-006,Verify mentees can view posts from enrolled courses.
+  Mentee Functionality Testing - View and Download Attachments,MENTEE-007,Verify mentees can view/download post attachments.
+  Mentee Functionality Testing - View Session Status,MENTEE-008,Verify mentees can view upcoming/completed sessions.
+  Mentee Functionality Testing - View Calendar Events,MENTEE-009,Verify mentees can view calendar events (sessions).
+  Mentee Functionality Testing - View Courses Enrolled,MENTEE-010,Verify mentees can view their enrolled courses.
+  Mentee Functionality Testing - View Notifications,MENTEE-011,Verify mentees can view notifications (posts/schedules).
+Searching Functionality Testing,,
+  Search Functionality Testing - Mentor Search,SEARCH-001,Verify mentees/admins can search for mentors.
+  Search Functionality Testing - Course Search,SEARCH-002,Verify mentees/admins can search for courses.
+Settings Testing,,
+  Settings Testing - Update Profile,SET-001,Verify users can update their profile information.
+  Settings Testing - Change Password,SET-002,Verify users can change their password.
+UI Testing,,
+  User Interface Testing,,
+    Authentication and User Testing,UI-0001,"Verify that icons, texts, and other elements are displayed properly."
+    Admin Testing,UI-0002,"Verify that icons, texts, and other elements are displayed properly."
+    Mentor Testing,UI-0003,"Verify that icons, texts, and other elements are displayed properly."
+    Mentee Testing,UI-0004,"Verify that icons, texts, and other elements are displayed properly."
+    Search Functionality Testing,UI-0005,"Verify that icons, texts, and other elements are displayed properly."
+  UI Messages,,
+    Helper texts,UI-0006,Verify that UI helper texts are displayed properly.
+    Snackbar,UI-0007,Verify that snackbars are working successfully.
+    Toast notifications,UI-0008,Verify that toast notifications are working successfully.
+    Error Messages,UI-0009,Verify that error messages are displayed successfully.
+  Error Messages,,
+    Error Message - X,UI-0010,"Verify that ""X"" error message is displayed successfully."
+    Error Message - Y,UI-0011,"Verify that ""Y"" error message is displayed successfully."
+    Error Message - Z,UI-0012,"Verify that ""Z"" error message is displayed successfully."
+Connectivity Testing,,
+  Connectivity Testing - Offline Alert,CONN-001,Verify app shows an appropriate message when offline.
+  Connectivity Testing - Connection Recovery,CONN-002,Verify app can reconnect and resume seamlessly after internet is restored.
+  Connectivity Testing - Content Consistency,CONN-003,Verify content syncs properly when network switches from Wi-Fi to mobile.
+  Connectivity Testing - Persistent Authentication Status,CONN-004,Verify user remains authenticated after brief network interruption.
+  Connectivity Testing - Handle UI/UX in Slow Connectivity,CONN-005,Verify app handles slow network gracefully (loading indicators appear).
+Security Testing,,
+  Authentication Testing,,
+    Authentication testing - Sign Up with Username/Password,SEC-0001,Verify user can sign up with username and password.
+    Authentication testing - Log in with Username/Password,SEC-0002,Verify user can log in with username and password.
+    Authentication testing - Sign Up with Google,SEC-0003,Verify user can sign up with GSI.
+    Authentication testing - Log in with Google,SEC-0004,Verify user can log in with GSI.
+    Authentication testing - Verify Email,SEC-0007,Verify user can verify account through email.
+    Authentication testing - Forgot Password,SEC-0010,Verify user can recover lost account.
+  Mobile App Testing,,
+    Authentication and User Testing,SEC-0011,Verify all inputs can handle Cross-Site Scripting (XSS) attacks.
+    Admin Testing,SEC-0012,Verify all inputs can handle Cross-Site Scripting (XSS) attacks.
+    Mentor Testing,SEC-0013,Verify all inputs can handle Cross-Site Scripting (XSS) attacks.
+    Mentee Testing,SEC-0014,Verify all inputs can handle Cross-Site Scripting (XSS) attacks.
+    Search Functionality Testing,SEC-0015,Verify all inputs can handle Cross-Site Scripting (XSS) attacks.
+Performance Testing,,
+  Upgrade/Downgrade Testing,,
+    Upgrade testing,PERF-0001,Verify that the application can upgrade successfully.
+    Downgrade testing,PERF-0002,Verify that the application can downgrade successfully.
+  Special Condition Testing,,
+    Out-of-the-Box testing,PERF-0003,Verify that the app can perform installation and setup successfully.
+    Low-bandwidth testing,PERF-0004,Verify that the app can handle requests in a congested network.
+    Doze-mode testing,PERF-0005,Verify that the app can handle requests after timeouts.
+    Low-power testing,PERF-0006,Verify that the app can handle requests in low battery mode.
