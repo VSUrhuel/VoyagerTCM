@@ -7,6 +7,7 @@
 - Mentee should be enrolled to the course
 - Mentee should be approved by the Mentor
 - Mentor should have an existing post
+- 
 Scenario 1 
 
  | \# | Step | Expected Behavior | 
