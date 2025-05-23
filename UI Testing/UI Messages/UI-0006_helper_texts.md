@@ -16,4 +16,4 @@ Scenario 1
 
  - Helper texts are clearly visible and contextually appropriate for each input field.
  - No overlap or confusion between helper texts and validation/error messages.
- -  User is properly guided by helper texts throughout the form interaction process.
+ - User is properly guided by helper texts throughout the form interaction process.
